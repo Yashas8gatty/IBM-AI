@@ -1,75 +1,126 @@
-# 🎯 Internship & Job Finder
+# 🤖 AI-Powered Internship & Job Finder
 
-A simple Streamlit application to find internship and job opportunities in India based on your skills and interests. This tool uses the SerpApi Google Search API to query multiple job portals simultaneously.
+[![Streamlit App](https://img.shields.io/badge/🚀%20Live%20App-SmartIntern-green?style=for-the-badge)](https://smartintern.streamlit.app/)
+![Made with Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge)
+
+---
+
+## 🔍 What is SmartIntern?
+
+**SmartIntern** is an AI-powered Streamlit application that helps students and freshers discover relevant **internship and job opportunities** in India based on their **skills and interests**.
+
+It leverages the **SerpAPI Google Search API** to pull real-time results from platforms like:
+- Internshala
+- Naukri
+- LinkedIn
+- Indeed
+- Freshersworld and more
+
+---
 
 ## ✨ Features
 
--   Search for both internships and jobs.
--   Filter results from popular Indian job sites like Internshala, LinkedIn, Naukri, etc.
--   Automatically categorizes internships into "Paid" and "Unpaid/Unspecified" based on listing details.
--   Provides skill suggestions based on your career interests.
--   Simple and intuitive user interface built with Streamlit.
+✅ Search for both **Internships** and **Full-Time Jobs**  
+✅ Filters job listings from **top Indian job sites**  
+✅ AI-based skill suggestion from interest keywords  
+✅ Smart categorization: **Paid vs Unpaid internships**  
+✅ Fast, intuitive and minimal UI using **Streamlit**  
+✅ Powered by real-time **Google search results**
 
-## 🚀 Setup and Installation
+---
 
-Follow these steps to get the application running on your local machine.
+## 🚀 Live Demo
 
-### Prerequisites
+🔗 Click here to try it out:  
+👉 **[https://smartintern.streamlit.app/](https://smartintern.streamlit.app/)**
 
--   Python 3.8+
--   A SerpApi API Key. You can get one for free from [serpapi.com](https://serpapi.com/).
+---
 
-### 1. Clone the Repository
+## ⚙️ Setup Instructions
 
-```bash
-git clone <your-repo-url>
-cd <your-repo-name>
-```
+### ✅ Prerequisites
 
-### 2. Create a Virtual Environment
+- Python 3.8 or above
+- A free API key from [SerpAPI](https://serpapi.com/)
 
-It's recommended to use a virtual environment to manage dependencies.
+---
 
-```bash
-# For Windows
-python -m venv venv
-venv\Scripts\activate
+### 🛠️ Setup Steps
 
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-```
+1.  **Clone the Repository**
 
-### 3. Install Dependencies
-
-Install the required Python packages using the `requirements.txt` file.
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure API Key
-
-This application uses Streamlit's secrets management.
-
-1.  Create a directory named `.streamlit` in the root of the project.
-2.  Inside `.streamlit`, create a file named `secrets.toml`.
-3.  Add your SerpApi key to this file in the following format:
-
-    ```toml
-    # .streamlit/secrets.toml
-    [api]
-    serp_key = "YOUR_SERPAPI_KEY_HERE"
+    ```bash
+    git clone https://github.com/your-username/smartintern.git
+    cd smartintern
     ```
 
-**Important:** The `secrets.toml` file is included in `.gitignore` and should **never** be committed to your repository to keep your API key private.
+2.  **Create a Virtual Environment**
 
-## 🏃‍♀️ Running the Application
+    ```bash
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
 
-Once the setup is complete, you can run the Streamlit app with the following command:
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-```bash
-streamlit run app.py
-```
+3.  **Install Dependencies**
 
-Your web browser should open a new tab with the application running. Enter your skills and interests to start finding opportunities!
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Configure API Key**
+
+    Use Streamlit secrets to store your SerpAPI key securely:
+
+    ```toml
+    # 📁 .streamlit/secrets.toml
+    [api]
+    serp_key = "YOUR_SERPAPI_KEY"
+    ```
+    ⚠️ Do not commit this file! It's excluded in `.gitignore`.
+
+5.  **Run the App**
+
+    ```bash
+    streamlit run app.py
+    ```
+    The app will open in your browser. Enter your skills and interests to get personalized job listings.
+
+---
+
+### 🖼️ Optional: Screenshots
+You can upload screenshots of the interface and uncomment below:
+
+<!-- ### 🔎 Home Page !Home ### 📋 Filtered Results !Results -->
+
+---
+
+### 👥 Team Members
+- Yashas H Gatty
+- Uttham
+- 
+
+---
+
+### 🧠 Tech Stack
+- Python 3.8+
+- Streamlit
+- SerpAPI
+- HTML Parsing & Filtering
+- GitHub Collaboration
+
+---
+
+### 📄 License
+This project is open source under the MIT License.
+
+---
+
+### 🙌 Support or Feedback?
+Have suggestions or ideas?
+Feel free to open an issue or create a pull request.

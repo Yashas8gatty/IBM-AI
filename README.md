@@ -103,7 +103,12 @@ You can upload screenshots of the interface and uncomment below:
 ### 👥 Team Members
 - Yashas H Gatty
 - Uttham
-- 
+- Sanjana
+- Harshitha
+- Vrinda
+- Reeshal Dsouza
+- Puneeth
+- Srujan Ds
 
 ---
 

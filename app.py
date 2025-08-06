@@ -30,6 +30,7 @@ interests = st.text_input("🎯 Enter your domain or career interest", help="e.g
 
 # --- Helper Functions ---
 
+@st.cache_data(ttl="6h") # Cache results for 6 hours
 def search_serpapi(query: str, api_key: str, count: int = 10) -> Dict[str, Any]:
     """
     Performs a Google search using the SerpApi.
@@ -41,6 +42,10 @@ def search_serpapi(query: str, api_key: str, count: int = 10) -> Dict[str, Any]:
 
     Returns:
         A dictionary containing the search results.
+    
+    Note: The api_key is included as an argument to ensure that if the key changes,
+    the cache is invalidated. However, since it's sensitive, be mindful when
+    using caching in different contexts.
     """
     params = {
         "engine": "google",

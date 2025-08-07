@@ -51,8 +51,8 @@ It leverages the **SerpAPI Google Search API** to pull real-time results from pl
 1.  **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-username/smartintern.git
-    cd smartintern
+    git clone https://github.com/Yashas8gatty/IBM-AI.git
+    cd IBM-AI
     ```
 
 2.  **Create a Virtual Environment**
@@ -99,7 +99,7 @@ You can upload screenshots of the interface and uncomment below:
 <!-- ### 🔎 Home Page !Home ### 📋 Filtered Results !Results -->
 
 ---
-
+### TEAM NAME : DATA REGIME
 ### 👥 Team Members
 - Yashas H Gatty
 - Uttham

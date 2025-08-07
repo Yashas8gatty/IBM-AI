@@ -122,8 +122,7 @@ You can upload screenshots of the interface and uncomment below:
 
 ---
 
-### 📄 License
-This project is open source under the MIT License.
+
 
 ---
 

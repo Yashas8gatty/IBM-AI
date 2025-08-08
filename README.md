@@ -35,6 +35,9 @@ It leverages the **SerpAPI Google Search API** to pull real-time results from pl
 
 🔗 Click here to try it out:  
 👉 **[https://smartintern.streamlit.app/](https://smartintern.streamlit.app/)**
+🔗 Backup Link:  
+👉 **[https://smartinterns.streamlit.app/](https://smartinterns.streamlit.app/)**
+
 
 ---
 

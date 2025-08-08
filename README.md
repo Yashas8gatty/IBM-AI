@@ -15,6 +15,7 @@ It leverages the **SerpAPI Google Search API** to pull real-time results from pl
 - Naukri
 - LinkedIn
 - Indeed
+- glassdoor
 - Freshersworld and more
 
 ---

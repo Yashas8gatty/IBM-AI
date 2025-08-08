@@ -56,7 +56,7 @@ def search_serpapi(query: str, api_key: str, count: int = 10) -> Dict[str, Any]:
     }
     search = GoogleSearch(params)
     return search.get_dict()
-
+# diaplay
 def display_results(results: List[Tuple[str, str, str]], header: str):
     """
     Displays a list of search results in a Streamlit expander.

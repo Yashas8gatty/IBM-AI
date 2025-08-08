@@ -11,7 +11,7 @@ SITES = [
 SITE_FILTER = " OR ".join(SITES)
 
 # --- Page Config ---
-st.set_page_config(page_title="Internship & Job Finder", layout="wide")
+st.set_page_config(page_title="Internship & Job Finder",page_icon=":robot:", layout="wide")
 
 # --- Title ---
 st.title("🎯 Internship & Job Finder")
@@ -19,7 +19,7 @@ st.write("Find opportunities in India based on your skills and interests.")
 
 # --- Load SerpAPI Key from secrets.toml ---
 try:
-    API_KEY = st.secrets["api"]["serp_key"]
+    API_KEY = st.secrets["api"]["key"]
 except (KeyError, FileNotFoundError):
     st.error("🚨 SerpAPI key not found. Please add it to your `.streamlit/secrets.toml` file.")
     st.stop()
